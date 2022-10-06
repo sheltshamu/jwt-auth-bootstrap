@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: livestock-management platform
+    description: livestock management platform
+    version: 1.0
+#    datasource:
+#      driver-class-name: org.postgresql.Driver
+#      password: postgres
+#      url: 'jdbc:postgresql://localhost:5432/jwt-sample'
+#      username: postgres
+  jpa:
+#    database: postgresql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
